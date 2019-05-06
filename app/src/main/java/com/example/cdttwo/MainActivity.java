@@ -23,7 +23,5 @@ public class MainActivity extends AppCompatActivity {
 
         list_itemArrayList = new ArrayList<list_item>();
 
-
-
     }
 }

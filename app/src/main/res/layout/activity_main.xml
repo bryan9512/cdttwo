@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/coral">
+    android:background="@color/coral"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
 
     <ListView
         android:id="@+id/my_listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
         android:divider="#ffcc22"
-        android:dividerHeight="1.5dp"
-        android:choiceMode="singleChoice">
+        android:dividerHeight="1.5dp">
 
     </ListView>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
