@@ -18,8 +18,13 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven{url 'https://jitpack.io'}
-        
+        //켈린더
+        maven{url 'https://jitpack.io' }
+        //지도
+        maven{
+            url 'https://navercorp.bintray.com/maps' }
+        //카카오 로그인
+        maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
     }
 }
 
